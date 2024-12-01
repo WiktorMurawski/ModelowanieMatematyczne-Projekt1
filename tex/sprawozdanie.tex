@@ -1,0 +1,261 @@
+\documentclass[a4paper, 12pt, twoside, openany]{article}
+
+% Pakiety
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage[hidelinks]{hyperref} % Hiperłącza bez ramek
+%\usepackage{hyperref} % Hiperłącza
+\usepackage{amsmath, amssymb} % Pakiety matematyczne
+\usepackage{graphicx} % Obsługa grafiki
+\usepackage{enumitem}
+%\usepackage{fontspec}
+\usepackage{setspace}
+\usepackage{geometry} % Ustawienia marginesów
+\geometry{
+    inner=20mm, % margines wewnętrzny
+    outer=20mm, % margines zewnętrzny
+    top=25mm,   % margines górny
+    bottom=25mm % margines dolny
+}
+
+\usepackage{xcolor}   % Pakiet do kolorów
+\usepackage{listingsutf8} % Pakiet do listingu kodu
+
+\lstdefinestyle{mystyle}{
+    inputencoding=utf8,           % Kodowanie UTF-8
+    extendedchars=true,           % Obsługa znaków spoza ASCII
+    basicstyle=\ttfamily\footnotesize,   % Styl podstawowy
+    language=Matlab,              % Język kodu
+    keywordstyle=\bfseries\color{blue}, % Styl słów kluczowych
+    commentstyle=\itshape\color{green!50!black}, % Styl komentarzy
+    stringstyle=\color{red},      % Styl tekstu w cudzysłowach
+    numbers=left,                 % Numeracja linii po lewej stronie
+    numberstyle=\color{gray},     % Styl numerów linii
+    frame=single,                 % Ramka wokół kodu
+    breaklines=false,             % Zawijanie linii
+    backgroundcolor=\color{gray!10}, % Kolor tła
+    tabsize=2,                    % Wielkość tabulacji
+    showstringspaces=false,        % Ukrywanie spacji w ciągach tekstowych
+    literate={ą}{{\k{a}}}1
+             {Ą}{{\k{A}}}1
+             {ć}{{\'{c}}}1
+             {Ć}{{\'{C}}}1
+             {ę}{{\k{e}}}1
+             {Ę}{{\k{E}}}1
+             {ł}{\l}1
+             {Ł}{\L}1
+             {ń}{{\'{n}}}1
+             {Ń}{{\'{N}}}1
+             {ó}{{\'{o}}}1
+             {Ó}{{\'{O}}}1
+             {ś}{{\'{s}}}1
+             {Ś}{{\'{S}}}1
+             {ź}{{\'{z}}}1
+             {Ź}{{\'{Z}}}1
+             {ż}{{\.{z}}}1
+             {Ż}{{\.{Z}}}1
+}
+
+\lstset{style=mystyle}
+
+% Definicja stylu dla kodu Matlab
+%\lstset{
+%    %inputencoding=utf8,           % Kodowanie UTF-8
+%    extendedchars=true,           % Obsługa znaków spoza ASCII
+%    basicstyle=\ttfamily\footnotesize,   % Styl podstawowy
+%    language=Matlab,              % Język kodu
+%    keywordstyle=\bfseries\color{blue}, % Styl słów kluczowych
+%    %commentstyle=\itshape\color{green!50!black}, % Styl komentarzy
+%    stringstyle=\color{red},      % Styl tekstu w cudzysłowach
+%    numbers=left,                 % Numeracja linii po lewej stronie
+%    numberstyle=\color{gray},     % Styl numerów linii
+%    frame=single,                 % Ramka wokół kodu
+%    breaklines=false,             % Zawijanie linii
+%    backgroundcolor=\color{gray!10}, % Kolor tła
+%    tabsize=2,                    % Wielkość tabulacji
+%    %showstringspaces=false,       % Ukrywanie spacji w ciągach tekstowych
+%    inputencoding=utf8,
+%    literate={ł}{l}1
+%    %    {Ą}{{\k{A}}}1
+%    %    {ę}{{\k{e}}}1
+%    %    {Ę}{{\k{E}}}1
+%    %    {ó}{o}1
+%    %    {Ó}{{\'O}}1
+%    %    {ś}{{\'s}}1
+%    %    {Ś}{{\'S}}1
+%    %    {ł}{{\l{}}}1
+%    %    {Ł}{{\L{}}}1
+%    %    {ż}{{\.z}}1
+%    %    {Ż}{{\.Z}}1
+%    %    {ź}{{\'z}}1
+%    %    {Ź}{{\'Z}}1
+%    %    {ć}{{\'c}}1
+%    %    {Ć}{{\'C}}1
+%    %    {ń}{{\'n}}1
+%    %    {Ń}{{\'N}}1
+%    %literate={ł}{{\l{l}}}1
+%}
+
+
+
+\newcommand{\tytul}{Rozwiązywanie układów równań różniczkowych zwyczajnych}
+\newcommand{\autor}{Wiktor Murawski}
+\newcommand{\uczelnia}{Politechnika Warszawska}
+\newcommand{\wydzial}{Wydział Matematyki i Nauk Informacyjnych}
+\newcommand{\prowadzacy}{dr inż. Jakub Wagner}
+\newcommand{\przedmiot}{Modelowanie matematyczne}
+\newcommand{\miejsce}{Warszawa}
+\date{\today}
+
+% Dokument
+\begin{document}
+
+    % STRONA TYTUŁOWA
+    \begin{titlepage}
+        \centering
+        \vspace*{1cm}
+        \LARGE\textbf \tytul \\
+        \vspace{1.5cm}
+        \large
+        %\normalsize
+        Autor: \autor \\
+        \vspace{1cm}
+        Przedmiot: \przedmiot \\
+        Prowadzący: \prowadzacy \\
+        \vspace{2cm}
+        \uczelnia \\
+        \wydzial \\
+        \vspace{2cm}
+        Oświadczam, że niniejsza praca, stanowiąca podstawę do uznania osiągnięcia efektów
+        uczenia się z przedmiotu Modelowanie matematyczne, została wykonana przeze mnie samodzielnie.\\
+        \vspace{2cm}
+        \miejsce \\
+        \today \\
+    \end{titlepage}
+
+    % SPIS TREŚCI
+    \tableofcontents
+    \newpage
+
+    % Lista symboli i akronimów
+    \section{Lista Symboli i Akronimów}
+    %\addcontentsline{toc}{section}{Lista Symboli i Akronimów}
+    \begin{spacing}{1.5}
+    \begin{tabbing}
+        \hspace{5cm} \= \hspace{10cm} \= \kill
+
+        \text{URRZ} \> układ równań różniczkowych zwyczajnych \\
+        $t$ \> zmienna skalarna, czas \\
+        $h$ \> wartość kroku całkowania \\
+        $N(h)$ \> zależna od kroku całkowania liczba punktów rozwiązania \\
+        $h_{min}$ \> najmniejszy badany krok całkowania \\
+        $h_{max}$ \> największy badany krok całkowania \\
+        $y_1(t),y_2(t),x(t)$ \> funkcje w dziedzinie czasu $t$ \\
+        $\dot{y}_1(t),\dot{y}_2(t)$ \> dokładne rozwiązanie URRZ \\
+        $\hat{y}_1(t,h),\hat{y}_2(t,h)$ \> przybliżone rozwiązanie URRZ dla kroku całkowania $h$ \\
+        $c_i, a_{i,j}, w_i$ \> współczynniki w tabeli Butchera; $i,j \in \{1,2,3\}$ \\
+        $\mathbf{y}(t)$ \> pionowy wektor zawierający wartości $y_1(t)$ i $y_2(t)$, $\mathbf{y} = \begin{bmatrix} y_1(t)\\y_2(t) \end{bmatrix}$ \\
+        $t_n$ \> wartość czasu, $t_n = t_0 + (n-1)h$, $n \in \mathbb{Z}^+$ \\
+        $\mathbf{y}_n$ \> $\mathbf{y}(t_n)$ \\
+        $\mathbf{f}(t_n,\mathbf{y}_n)$ \> funkcja określona przez URRZ: $\left. \dfrac{d\mathbf{y}(t)}{dt} \right|_{t=t_n} = \mathbf{f}(t_n,\mathbf{y}_n)$ \\
+        $\delta_1(h), \delta_2(h)$ \> zagregowane błędy względne dla kroku całkowania $h$\\
+
+    \end{tabbing}
+    \end{spacing}
+    \newpage
+
+    % Wprowadzenie
+    \section{Wprowadzenie}
+    Dany jest następujący układ równań różniczkowych zwyczajnych (URRZ):
+    \begin{equation}
+        \label{URRZ}
+        \left.\begin{array}{c}
+            \begin{aligned}
+                \frac{dy_1(t)}{dt} &= -\frac{14}{3}y_1(t) - \frac{2}{3}y_2(t) + x(t) \\
+                \frac{dy_2(t)}{dt} &= \frac{2}{3}y_1(t) - \frac{19}{3}y_2(t) + x(t)
+            \end{aligned}
+        \end{array}\right\}
+        \text{ dla } t\in[0,8] \text{, w którym } x(t) = \exp(-t)\sin(t) \\
+    \end{equation}
+    W celu rozwiązania URRZ przedstawionego w \eqref{URRZ} dla zerowych warunków
+    początkowych, tj. $y_1(0) = y_2(0) = 0$:
+    \begin{enumerate}
+        \item wyznaczono dokładne rozwiązanie URRZ za pomocą procedury \texttt{dsolve} (\textit{MATLAB Symbolic Toolbox})
+        \item zastosowano procedurę \texttt{ode45} (\textit{MATLAB}), będącą zaawansowaną implementacją metody Rungego-Kutty czwartego rzędu z adaptacyjnym krokiem czasowym
+        \item zaimplementowano oraz zastosowano trzy inne metody dyskretne:
+        \begin{itemize}[label=\scriptsize$\bullet$]
+            \item metodę zdefiniowaną wzorem
+            $\mathbf{y}_n = \mathbf{y}_{n-1} + h\mathbf{f}\bigg(t_{n-1} + \dfrac{h}{2},\mathbf{y}_{n-1} + \dfrac{h}{2}\mathbf{f}\big(t_{n-1},\mathbf{y}_{n-1}\big)\bigg)$
+            \item metodę zdefiniowaną wzorem
+            $ \mathbf{y}_n = \mathbf{y}_{n-2} + h\Big[\mathbf{f}\left(t_{n},\mathbf{y}_{n}\right) + \mathbf{f}\left(t_{n-2},\mathbf{y}_{n-2}\right)\Big]$
+            \item metodę zdefiniowaną wzorem
+            $\mathbf{y}_n = \mathbf{y}_{n-1} + h\sum\limits_{k=1}^{3}w_k\mathbf{f}_k$
+            \\gdzie
+            $\mathbf{f}_k = \mathbf{f}\bigg(t_{n-1}+c_kh,\mathbf{y}_{n-1} + h\sum\limits_{\kappa=1}^{3}a_{k,\kappa}\mathbf{f}_\kappa\bigg)$
+            \\[0.5em] a współczynniki przyjmują wartości przedstawione w poniższej tabeli Butchera: \\[0.5em]
+            $\arraycolsep=5pt\def\arraystretch{1.5}
+            \begin{array}{c|ccc}
+                c_1 & a_{1,1} & a_{1,2} & a_{1,3} \\
+                c_2 & a_{2,1} & a_{2,2} & a_{2,3} \\
+                c_3 & a_{3,1} & a_{3,2} & a_{3,3} \\
+                \hline
+                    & w_1 & w_2 & w_3
+            \end{array}
+            \hspace{1cm} = \hspace{1cm}
+            \begin{array}{c|ccc}
+                0            & \frac{1}{6} & -\frac{1}{6} & 0 \\
+                \dfrac{1}{2} & \frac{1}{6} & \frac{1}{3} & 0 \\
+                1            & \frac{1}{6} & \frac{5}{6} & 0 \\
+                \hline
+                & \frac{1}{6} & \frac{2}{3} & \frac{1}{6}
+            \end{array} $
+        \end{itemize}
+    \end{enumerate}
+
+    \newpage
+
+    % Metodyka i wyniki doświadczeń
+    \section{Metodyka i Wyniki Doświadczeń}
+    %Opis wykonanych doświadczeń i obliczeń, zarówno w środowisku MATLAB, jak i na papierze. Szczegóły pozwalające na odtworzenie wyników.
+    \subsection{dsolve}
+    Za pomocą poniższego kodu korzystającego z procedury \texttt{dsolve} wyznaczono rozwiązanie \eqref{URRZ}:
+    \subsection*{plik \texttt{solve\_using\_dsolve.m}}
+    \lstinputlisting{../solve_using_dsolve.m}
+    Uzyskano:
+    \small
+    $$ \begin{aligned}
+    \dot{y}_1(t) &= - \frac{1}{2}\exp(-6 t) \left( \frac{\exp(5 t) \left( \cos(t) - 5 \sin(t) \right)}{39} - \frac{1}{39} \right) - 2 \exp(-5 t) \left( \frac{\exp(4 t) \left( \cos(t) - 4 \sin(t) \right)}{51} - \frac{1}{51} \right) \\
+    \dot{y}_2(t) &= - \exp(-6 t) \left( \frac{\exp(5 t) \left( \cos(t) - 5 \sin(t) \right)}{39} - \frac{1}{39} \right) - \exp(-5 t) \left( \frac{\exp(4 t) \left( \cos(t) - 4 \sin(t) \right)}{51} - \frac{1}{51} \right)
+    \end{aligned} $$
+    % Dyskusja wyników eksperymentów numerycznych
+    \section{Dyskusja Wyników Eksperymentów Numerycznych}
+    Interpretacja i analiza uzyskanych wyników. Dyskusja na temat poprawności i znaczenia uzyskanych rezultatów.
+
+    \newpage
+
+    % Lista źródeł informacji
+    \section*{Bibliografia}
+    \addcontentsline{toc}{section}{Bibliografia}
+    \begin{enumerate}
+        \item Autor, Tytuł, Wydawnictwo, Rok wydania.
+        \item Strona internetowa: \url{http://przyklad.com}.
+        \item Dokumentacja MATLAB: \url{https://www.mathworks.com/help}.
+    \end{enumerate}
+
+    \newpage
+
+    % Listing opracowanych programów
+    \section*{Listing Programów}
+    \addcontentsline{toc}{section}{Listing Programów}
+
+    \subsection*{plik \texttt{Projekt1.m}}
+    \lstinputlisting{../Projekt1.m}
+    \subsection*{plik \texttt{metoda1.m}}
+    \lstinputlisting{../metoda1.m}
+    \subsection*{plik \texttt{metoda2.m}}
+    \lstinputlisting{../metoda2.m}
+    \subsection*{plik \texttt{metoda3.m}}
+    \lstinputlisting{../metoda3.m}
+
+\end{document}

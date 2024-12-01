@@ -1,3 +1,4 @@
+% Przedział t
 tmin = 0; tmax = 8;
 tspan = [tmin,tmax];
 
@@ -33,19 +34,19 @@ y1_exact = sol.y1;
 y2_exact = sol.y2;
 
 
-% figure(1); 
+% figure(1);
 % clf; hold on; legend;
 % title("dsolve");
 % fplot(y1_exact,tspan,'DisplayName','y1 dsolve');
 % fplot(y2_exact,tspan,'DisplayName','y2 dsolve');
 
 %% Zadanie 2
-% Wartość kroku h stosowanego w poniższych metodach (z wyłączeniem ode45) 
+% Wartość kroku h stosowanego w poniższych metodach (z wyłączeniem ode45)
 h = 0.33;
 
 % Wyznaczenie N(h) oraz wektora t
 N = floor((tmax - tmin)/h) + 1;
-t = tmin:h:tmax; 
+t = tmin:h:tmax;
 
 %% Procedura ode45
 [T_ode45,y_ode45] = ode45(f,tspan,y0);
@@ -109,8 +110,8 @@ y2_metoda2 = y(2,:);
 c = [0,   1/2,   1];
 w = [1/6, 2/3, 1/6];
 a = [
-  1/6, -1/6, 0; 
-  1/6,  1/3, 0; 
+  1/6, -1/6, 0;
+  1/6,  1/3, 0;
   1/6,  5/6, 0;
   ];
 
