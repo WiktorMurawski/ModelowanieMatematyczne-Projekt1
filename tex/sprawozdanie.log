@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.16)  1 DEC 2024 01:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.16)  2 DEC 2024 00:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -274,6 +274,37 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
+(c:/Program Files/texlive/2024/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
+
+(c:/Program Files/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count296
+\calc@Bcount=\count297
+\calc@Adimen=\dimen156
+\calc@Bdimen=\dimen157
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count298
+\calc@Cskip=\skip57
+)
+(c:/Program Files/texlive/2024/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count299
+\l_MT_multwidth_dim=\dimen158
+\origjot=\skip58
+\l_MT_shortvdotswithinadjustabove_dim=\dimen159
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen160
+\l_MT_above_intertext_sep=\dimen161
+\l_MT_below_intertext_sep=\dimen162
+\l_MT_above_shortintertext_sep=\dimen163
+\l_MT_below_shortintertext_sep=\dimen164
+\xmathstrut@box=\box54
+\xmathstrut@dim=\dimen165
+)
 (c:/Program Files/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -291,17 +322,45 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 (c:/Program Files/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen156
-\Gin@req@width=\dimen157
+\Gin@req@height=\dimen166
+\Gin@req@width=\dimen167
 )
 (c:/Program Files/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip55
-\enit@outerparindent=\dimen158
+\labelindent=\skip59
+\enit@outerparindent=\dimen168
 \enit@toks=\toks25
-\enit@inbox=\box54
-\enit@count@id=\count296
-\enitdp@description=\count297
+\enit@inbox=\box55
+\enit@count@id=\count300
+\enitdp@description=\count301
+)
+(c:/Program Files/texlive/2024/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count302
+\float@exts=\toks26
+\float@box=\box56
+\@float@everytoks=\toks27
+\@floatcapt=\box57
+)
+(c:/Program Files/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(c:/Program Files/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen169
+\captionmargin=\dimen170
+\caption@leftmargin=\dimen171
+\caption@rightmargin=\dimen172
+\caption@width=\dimen173
+\caption@indent=\dimen174
+\caption@parindent=\dimen175
+\caption@hangindent=\dimen176
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count303
+\c@continuedfloat=\count304
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
 )
 (c:/Program Files/texlive/2024/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
@@ -312,18 +371,18 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (c:/Program Files/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count298
-\Gm@cntv=\count299
-\c@Gm@tempcnt=\count300
-\Gm@bindingoffset=\dimen159
-\Gm@wd@mp=\dimen160
-\Gm@odd@mp=\dimen161
-\Gm@even@mp=\dimen162
-\Gm@layoutwidth=\dimen163
-\Gm@layoutheight=\dimen164
-\Gm@layouthoffset=\dimen165
-\Gm@layoutvoffset=\dimen166
-\Gm@dimlist=\toks26
+\Gm@cnth=\count305
+\Gm@cntv=\count306
+\c@Gm@tempcnt=\count307
+\Gm@bindingoffset=\dimen177
+\Gm@wd@mp=\dimen178
+\Gm@odd@mp=\dimen179
+\Gm@even@mp=\dimen180
+\Gm@layoutwidth=\dimen181
+\Gm@layoutheight=\dimen182
+\Gm@layouthoffset=\dimen183
+\Gm@layoutvoffset=\dimen184
+\Gm@dimlist=\toks28
 )
 (c:/Program Files/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
@@ -348,27 +407,27 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 ty
 Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
  (c:/Program Files/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count301
-\lst@gtempboxa=\box55
-\lst@token=\toks27
-\lst@length=\count302
-\lst@currlwidth=\dimen167
-\lst@column=\count303
-\lst@pos=\count304
-\lst@lostspace=\dimen168
-\lst@width=\dimen169
-\lst@newlines=\count305
-\lst@lineno=\count306
-\lst@maxwidth=\dimen170
+\lst@mode=\count308
+\lst@gtempboxa=\box58
+\lst@token=\toks29
+\lst@length=\count309
+\lst@currlwidth=\dimen185
+\lst@column=\count310
+\lst@pos=\count311
+\lst@lostspace=\dimen186
+\lst@width=\dimen187
+\lst@newlines=\count312
+\lst@lineno=\count313
+\lst@maxwidth=\dimen188
 
 (c:/Program Files/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 )
 (c:/Program Files/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count307
-\lst@skipnumbers=\count308
-\lst@framebox=\box56
+\c@lstnumber=\count314
+\lst@skipnumbers=\count315
+\lst@framebox=\box59
 )
 (c:/Program Files/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2024/09/23 1.10c listings configuration
@@ -381,8 +440,8 @@ File: lstlang1.sty 2024/09/23 1.10c listings language file
 (c:/Program Files/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.
 def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count309
-\l__pdf_internal_box=\box57
+\l__color_backend_stack_int=\count316
+\l__pdf_internal_box=\box60
 )
 
 LaTeX Warning: Unused global option(s):
@@ -391,25 +450,25 @@ LaTeX Warning: Unused global option(s):
 (./sprawozdanie.aux)
 \openout1 = `sprawozdanie.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-Package hyperref Info: Link coloring OFF on input line 112.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+Package hyperref Info: Link coloring OFF on input line 81.
  (./sprawozdanie.out) (./sprawozdanie.out)
 \@outlinefile=\write3
 \openout3 = `sprawozdanie.out'.
@@ -417,17 +476,17 @@ Package hyperref Info: Link coloring OFF on input line 112.
 
 (c:/Program Files/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count310
-\scratchdimen=\dimen171
-\scratchbox=\box58
-\nofMPsegments=\count311
-\nofMParguments=\count312
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count313
-\MPscratchDim=\dimen172
-\MPnumerator=\count314
-\makeMPintoPDFobject=\count315
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count317
+\scratchdimen=\dimen189
+\scratchbox=\box61
+\nofMPsegments=\count318
+\nofMParguments=\count319
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count320
+\MPscratchDim=\dimen190
+\MPnumerator=\count321
+\makeMPintoPDFobject=\count322
+\everyMPtoPDFconversion=\toks31
 )
 (c:/Program Files/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.
 sty
@@ -440,6 +499,10 @@ g
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -474,7 +537,7 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count316
+\c@lstlisting=\count323
 
 
 [1
@@ -502,81 +565,168 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [3]
 
 [4]
-LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 223.
+Underfull \hbox (badness 10000) in paragraph at lines 192--194
+
+ []
+
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 224.
- (../solve_using_dsolve.m
+nput line 194.
+(../solve_using_dsolve.m
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 1.
 )
-Overfull \hbox (10.42773pt too wide) detected at line 230
+Overfull \hbox (10.42773pt too wide) detected at line 200
 [][]
  []
 
+<../images/exact.pdf, id=106, 672.5125pt x 275.0275pt>
+File: ../images/exact.pdf Graphic file (type pdf)
+<use ../images/exact.pdf>
+Package pdftex.def Info: ../images/exact.pdf  used on input line 204.
+(pdftex.def)             Requested size: 483.69687pt x 197.80981pt.
+
+Underfull \vbox (badness 4621) has occurred while \output is active []
 
 
-[5]
 
-[6] (../Projekt1.m
+[5 <../images/exact.pdf>] (../Projekt1.m)
+<../images/wykres1t.pdf, id=162, 670.505pt x 307.1475pt>
+File: ../images/wykres1t.pdf Graphic file (type pdf)
+<use ../images/wykres1t.pdf>
+Package pdftex.def Info: ../images/wykres1t.pdf  used on input line 232.
+(pdftex.def)             Requested size: 483.69687pt x 221.57251pt.
 
-[7])
-Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[6 <../images/wykres1t.pdf>] (../metoda1.m)
+<../images/wykres2t.pdf, id=206, 670.505pt x 307.1475pt>
+File: ../images/wykres2t.pdf Graphic file (type pdf)
+<use ../images/wykres2t.pdf>
+Package pdftex.def Info: ../images/wykres2t.pdf  used on input line 257.
+(pdftex.def)             Requested size: 483.69687pt x 221.57251pt.
 
 
+[7 <../images/wykres2t.pdf>] (../metoda2.m)
+<../images/wykres3t.pdf, id=249, 670.505pt x 307.1475pt>
+File: ../images/wykres3t.pdf Graphic file (type pdf)
+<use ../images/wykres3t.pdf>
+Package pdftex.def Info: ../images/wykres3t.pdf  used on input line 282.
+(pdftex.def)             Requested size: 483.69687pt x 221.57251pt.
 
-[8] (../metoda1.m) (../metoda2.m) (../metoda3.m
 
-[9])
+[8 <../images/wykres3t.pdf>]
 
-[10] (./sprawozdanie.aux)
+[9] (../metoda3.m)
+<../images/wykres4t.pdf, id=310, 670.505pt x 307.1475pt>
+File: ../images/wykres4t.pdf Graphic file (type pdf)
+<use ../images/wykres4t.pdf>
+Package pdftex.def Info: ../images/wykres4t.pdf  used on input line 373.
+(pdftex.def)             Requested size: 483.69687pt x 221.57251pt.
+
+
+[10 <../images/wykres4t.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 381--385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 385--390
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--394
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--410
+
+ []
+
+<../images/delta1new.pdf, id=373, 842.14626pt x 273.02pt>
+File: ../images/delta1new.pdf Graphic file (type pdf)
+<use ../images/delta1new.pdf>
+Package pdftex.def Info: ../images/delta1new.pdf  used on input line 415.
+(pdftex.def)             Requested size: 483.69687pt x 156.81447pt.
+
+
+[11 <../images/delta1new.pdf>]
+<../images/delta2new.pdf, id=410, 842.14626pt x 272.01625pt>
+File: ../images/delta2new.pdf Graphic file (type pdf)
+<use ../images/delta2new.pdf>
+Package pdftex.def Info: ../images/delta2new.pdf  used on input line 424.
+(pdftex.def)             Requested size: 483.69687pt x 156.23795pt.
+
+
+[12 <../images/delta2new.pdf>]
+
+[13]
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 450.
+ (../Projekt1.m
+
+[14])
+
+[15] (../solve_using_dsolve.m) (../plot_exact.m) (../metoda1.m)
+
+[16] (../metoda2.m) (../metoda3.m)
+
+[17] (../plot_results.m
+
+[18]) (../calculate_error.m)
+
+[19] (./sprawozdanie.aux)
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
  ***********
 Package rerunfilecheck Info: File `sprawozdanie.out' has not changed.
-(rerunfilecheck)             Checksum: 8CF0328AA696226D99B22CDAB2C1A60B;1085.
+(rerunfilecheck)             Checksum: E9F67563FE29AF2B9E8AE1888BCEE58F;1864.
  ) 
 Here is how much of TeX's memory you used:
- 14992 strings out of 473361
- 226504 string characters out of 5717897
- 894646 words of memory out of 5000000
- 37669 multiletter control sequences out of 15000+600000
- 577944 words of font info for 86 fonts, out of 8000000 for 9000
+ 17378 strings out of 473361
+ 271183 string characters out of 5717897
+ 933352 words of memory out of 5000000
+ 39780 multiletter control sequences out of 15000+600000
+ 581949 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,79p,320b,1983s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,17n,79p,339b,1989s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Program Files/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
-12.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmex10.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi10.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi12.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi6.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi8.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb><c:/Program Files/texlive/2024/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr12.pfb><c:/Program Files/texlive/2024/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/Program Files/texlive/2024/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Program Files/texlive/2024/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/Program Files/texlive/202
-4/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/Program Files/t
-exlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/Program Fil
-es/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/Program
- Files/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/Pro
-gram Files/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:
-/Program Files/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfit1000.pfb
-><c:/Program Files/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000
-.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm
-1095.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/type1/public/cm-super/
-sfrm1200.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/type1/public/cm-su
-per/sfrm1440.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/type1/public/c
-m-super/sfti1200.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/type1/publ
-ic/cm-super/sftt1000.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/type1/
-public/cm-super/sftt1095.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/ty
-pe1/public/cm-super/sftt1200.pfb><c:/Program Files/texlive/2024/texmf-dist/font
-s/type1/public/cm-super/sftt1440.pfb>
-Output written on sprawozdanie.pdf (10 pages, 450581 bytes).
+10.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmbx12.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmex10.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi10.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi12.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi8.pfb><c:/Program Files/texlive/2024/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><c:/Program Files/texlive/2024/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Program Files/texlive/2024/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/Program Files/texlive/2024/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/Program Files/texlive/2024
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Program Files/texlive
+/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/Program Files/tex
+live/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/Program
+ Files/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><
+c:/Program Files/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx1000.p
+fb><c:/Program Files/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfbx12
+00.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sf
+bx1440.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/type1/public/cm-supe
+r/sfbx1728.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/type1/public/cm-
+super/sfbx2074.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/type1/public
+/cm-super/sfit1000.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/type1/pu
+blic/cm-super/sfrm1000.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/type
+1/public/cm-super/sfrm1095.pfb><c:/Program Files/texlive/2024/texmf-dist/fonts/
+type1/public/cm-super/sfrm1200.pfb><c:/Program Files/texlive/2024/texmf-dist/fo
+nts/type1/public/cm-super/sfrm1440.pfb><c:/Program Files/texlive/2024/texmf-dis
+t/fonts/type1/public/cm-super/sfti1200.pfb><c:/Program Files/texlive/2024/texmf
+-dist/fonts/type1/public/cm-super/sftt1000.pfb><c:/Program Files/texlive/2024/t
+exmf-dist/fonts/type1/public/cm-super/sftt1095.pfb><c:/Program Files/texlive/20
+24/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb><c:/Program Files/texliv
+e/2024/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
+Output written on sprawozdanie.pdf (19 pages, 1241061 bytes).
 PDF statistics:
- 480 PDF objects out of 1000 (max. 8388607)
- 411 compressed objects within 5 object streams
- 225 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1020 PDF objects out of 1200 (max. 8388607)
+ 875 compressed objects within 9 object streams
+ 456 named destinations out of 1000 (max. 500000)
+ 132 words of extra memory for PDF output out of 10000 (max. 10000000)
 
